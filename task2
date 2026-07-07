@@ -1,0 +1,120 @@
+package first_sample;
+import java.util.Scanner;
+
+public class Task2 {
+
+	public static void main(String[] args) {
+		//1.)
+		/*Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the length and breadth:");
+		int l=sc.nextInt();
+		int b=sc.nextInt();
+		if (l==b)
+		{
+			System.out.println("It is a square");
+		}
+		else
+		{
+			System.out.println("It is a rectangle");
+		}*/
+		
+		//2.)
+		/*Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int a=sc.nextInt();
+		int b=a*a;
+		if (b>50)
+		{
+			System.out.println("Above 50");
+		}
+		else if (b<50)
+		{
+			System.out.println("Below 50");
+		}
+		else
+		{
+			System.out.println("Equal to 50");
+		}*/
+		
+		//3.)
+		/*Scanner sc=new Scanner(System.in);
+		System.out.println("Enter 2 numbers:");
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		int c=a-b;
+		if (c==0)
+		{
+			System.out.println("Equals to zero");
+		}
+
+		else
+		{
+			System.out.println("Not equal to zero");
+		}*/
+		
+		//4.)
+		/*Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int a=sc.nextInt();
+		int b=a%10;
+		int c=a%5;
+		if (b==0)
+		{
+			System.out.println("Divisible by 10");
+		}
+		
+		else if (c==0)
+		{
+			System.out.println("Divisible by 5");
+		}
+		
+		else
+		{
+			System.out.println("Not divisible by 10 & 5");
+		}*/
+		
+		//5.)
+		/*Scanner sc=new Scanner(System.in);
+		System.out.println("Enter 2 numbers:");
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		if (a>b)
+		{
+			System.out.println("a is biggest digit");
+		}
+		else if (b>a)
+		{
+			System.out.println("b is biggest digit");
+		}
+		else
+		{
+			System.out.println("a and b are equal");
+		}*/
+		
+		//6.)
+		/*Scanner sc=new Scanner(System.in);
+		System.out.println("Enter 2 numbers:");
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		System.out.println("Choose any one operator +,-,*,/");
+		char c=sc.next().charAt(0);
+		if (c=='+')
+		{
+			System.out.println(a+b);
+		}
+		else if (c=='-')
+		{
+			System.out.println(a-b);
+		}
+		else if (c=='*')
+		{
+			System.out.println(a*b);
+		}
+		else if (c=='/')
+		{
+			System.out.println(a/b);
+		}
+		else 
+		{
+			System.out.println("Invalid operator");
+		}*/
